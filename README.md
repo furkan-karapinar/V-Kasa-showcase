@@ -9,7 +9,6 @@
 ![Donanım](https://img.shields.io/badge/donan%C4%B1m-barkod_okuyucu_(HID_%2B_COM)-informational)
 ![Tests](https://img.shields.io/badge/NUnit-60%2B_test-success)
 ![Kaynak](https://img.shields.io/badge/kaynak_kodu-%C3%B6zel_(ticari)-lightgrey)
-[![Örnek kod testleri](https://github.com/furkan-karapinar/V-Kasa-showcase/actions/workflows/ornek-kod.yml/badge.svg)](https://github.com/furkan-karapinar/V-Kasa-showcase/actions/workflows/ornek-kod.yml)
 
 > **30 saniyede:**
 > - **Problem:** Shopify ve Trendyol siparişleri depoda elle kontrol edilerek paketleniyordu; yanlış beden/renk veya eksik ürün gönderimi iade ve müşteri memnuniyetsizliği demekti.
@@ -116,6 +115,6 @@ Tek geliştirici: depo sürecinin yerinde gözlemlenmesi, gereksinimler, donanı
 
 Bu depo bir **vaka çalışmasıdır**; kod ticari bir işletmeye ait olduğu için paylaşılmamaktadır. Görüşmede canlı demo ve kod incelemesi yapabilirim.
 
-**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: barkod / sipariş kodu / ürün adı eşleştirmesi için tek geçişli, Türkçe uyumlu normalizasyon. Tek başına derlenir, birim testleri vardır ve her push'ta GitHub Actions ile çalıştırılır.
+**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: barkod / sipariş kodu / ürün adı eşleştirmesi için tek geçişli, Türkçe uyumlu normalizasyon. Tek başına derlenir ve birim testleriyle birlikte gelir (`dotnet test`).
 
 📫 **İletişim:** [GitHub profilim](https://github.com/furkan-karapinar)
